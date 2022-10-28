@@ -1,3 +1,50 @@
+nav {
+  position: fixed;
+  top: 0%;
+  display: flex;
+  width: 100vw;
+  height: 50px;
+  justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+}
+nav .logo {
+  max-width: 15%;
+  padding: 5px;
+}
+nav .logo img {
+  max-width: 100%;
+  height: auto;
+}
+nav .navbar {
+  margin-right: 10px;
+  list-style-type: none;
+}
+nav .navbar li {
+  padding: 5px;
+  display: inline;
+}
+
+section {
+  display: flex;
+}
+
+.bgphoto .bg {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+.bgphoto .bg img {
+  max-width: 100%;
+  height: auto;
+}
+.bgphoto .bg .title {
+  z-index: 1;
+  font-size: x-large;
+  justify-content: center;
+  align-self: center;
+}
+
 /*
 Colors:
 
@@ -5,4 +52,4 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 
-*/
+*//*# sourceMappingURL=style.css.map */
