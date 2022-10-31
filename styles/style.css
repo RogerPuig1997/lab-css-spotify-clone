@@ -48,7 +48,7 @@ nav .navbar li {
 }
 
 [class^=wtext] {
-  color: #FFF;
+  color: #fff;
 }
 
 .wtext1 {
@@ -72,8 +72,8 @@ nav .navbar li {
   grid-row: 1;
   grid-column: 2;
   text-align: center;
-  -webkit-text-decoration: underline #00B172 3px;
-          text-decoration: underline #00B172 3px;
+  -webkit-text-decoration: underline #00b172 3px;
+          text-decoration: underline #00b172 3px;
   font-size: x-large;
 }
 
@@ -95,7 +95,7 @@ nav .navbar li {
 }
 
 .whtext1 {
-  color: #00B172;
+  color: #00b172;
   font-size: large;
   font-weight: bold;
 }
@@ -103,7 +103,7 @@ nav .navbar li {
 .app {
   margin: 20px;
   padding: 50px;
-  background-color: #00B172;
+  background-color: #00b172;
   display: flex;
   justify-content: space-around;
 }
@@ -127,8 +127,8 @@ nav .navbar li {
   margin-bottom: 40px;
   font-size: xx-large;
   font-weight: bold;
-  -webkit-text-decoration: underline #FFF 2px;
-          text-decoration: underline #FFF 2px;
+  -webkit-text-decoration: underline #fff 2px;
+          text-decoration: underline #fff 2px;
 }
 
 .wtext4 {
