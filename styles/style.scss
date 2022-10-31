@@ -1,18 +1,25 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 nav {
+  grid-row: 1;
+  grid-column: 1;
   position: fixed;
   top: 0%;
   display: flex;
   width: 100vw;
   height: 50px;
   justify-content: space-between;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: white;
   .logo {
     max-width: 15%;
     padding: 5px;
     img {
-      max-width: 100%;
-      height: auto;
+      width: auto;
+      height: 50px;
     }
   }
   .navbar {
@@ -24,27 +31,98 @@ nav {
     }
   }
 }
-section {
+.bg{
+  width: 100vw;
+  height: 600px;
+  position: relative;
+  margin-top: 60px;
+  background-image: url(landing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.bgphoto {
-  .bg{
-    position: relative;
-    max-width: 100%;
-    height: auto;
-    img{
-        max-width: 100%;
-        height: auto;
-    }
-    .title{
-        z-index: 1;
-        font-size: x-large;
-        justify-content: center;
-        align-self: center;
-    }
+[class^="wtext"]{
+  color: #FFF;
+}
+.wtext1{
+  margin-bottom: 50px;
+  font-size: xx-large;
+}
+.wtext2{
+  font-size: large;
+  text-align: center;
+}
+.whon{
+  margin-top: 20px;
+  width: 100vw;
+  height: auto;
+  display: grid;
+}
+.whtitle{
+  grid-row: 1;
+  grid-column: 2;
+  text-align: center;
+  text-decoration: underline #00B172 3px;
+  font-size: x-large;
+}
+[class^="whcol"]{
+  margin-top: 20px;
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  img{
+    width: 100px;
+    height: 100px;
+    align-self: center;
   }
 }
-
+[class^="whtext"]{
+  margin: 20px;
+}
+.whtext1{
+  color: #00B172;
+  font-size: large;
+  font-weight: bold;
+}
+.app{
+  margin: 20px;
+  padding: 50px;
+  background-color: #00B172;
+  display: flex;
+  justify-content: space-around;
+  img{
+    height: 500px;
+    width: auto;
+  };
+}
+.logo{
+  margin: 20px;
+  height: 100px;
+  min-width: 100px;
+  align-self: center;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+.wtext3{
+  margin-bottom: 40px;
+  font-size: xx-large;
+  font-weight: bold;
+  text-decoration: underline #FFF 2px;
+}
+.wtext4{
+  margin-bottom: 20px;
+  font-size: large;
+  font-weight: bold;
+}
+.wtext5{
+  margin-bottom: 10px;
+}
 /*
 Colors:
 
